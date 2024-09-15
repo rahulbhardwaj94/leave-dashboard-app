@@ -36,3 +36,157 @@
     transform: rotate(360deg);
   }
 }
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  border-radius: 10px;
+
+}
+
+.button-top-left {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 20px 30px;
+  background-color: #e6a20e;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-top-left:hover {
+  background-color: #2ecc71;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button-top-left:active {
+  transform: scale(0.95) rotate(0deg);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.datePickerClass {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.datePickerClass:hover {
+  border-color: #888;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.datePickerClass:focus {
+  border-color: #555;
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.timePickerClass {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.timePickerClass:hover {
+  border-color: #888;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timePickerClass:focus {
+  border-color: #555;
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.selectPartnerClass {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.selectPartnerClass:hover {
+  border-color: #888;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.selectPartnerClass:focus {
+  border-color: #555;
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.buttonSave {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonSave:hover {
+  background-color: darkgreen;
+}
+
+.buttonCancel {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonCancel:hover {
+  background-color: darkred;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
